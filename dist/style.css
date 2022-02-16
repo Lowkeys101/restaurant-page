@@ -1,0 +1,25 @@
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#content > * {
+    white-space: pre-line;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul > li {
+    display: inline;    
+}
